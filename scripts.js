@@ -1,6 +1,6 @@
 // cotações de moedas do dia
 const USD = 5.40
-const EUR = 6.27
+const EUR = 6.25
 const GBP = 7.22
 
 // obtendo os elementos
@@ -67,7 +67,7 @@ function convertCurrency(amountValue, price, symbol) {
   } catch (error) {
     console.error(error)
     footer.classList.remove("show-result")
-    alert("Não foi possível converter. Tente novamente mais tarde")
+    alert("Não foi possível converter. Tente novamente.")
   }
 }
 
